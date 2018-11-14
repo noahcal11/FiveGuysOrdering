@@ -46,7 +46,7 @@ Partial Class frmMainMenu
         'btnEntrees
         '
         Me.btnEntrees.BackColor = System.Drawing.Color.Black
-        Me.btnEntrees.Font = New System.Drawing.Font("Tekton Pro", 18.0!, System.Drawing.FontStyle.Bold)
+        Me.btnEntrees.Font = New System.Drawing.Font("Tekton Pro", 21.0!, System.Drawing.FontStyle.Bold)
         Me.btnEntrees.ForeColor = System.Drawing.Color.White
         Me.btnEntrees.Location = New System.Drawing.Point(275, 176)
         Me.btnEntrees.Name = "btnEntrees"
@@ -58,7 +58,7 @@ Partial Class frmMainMenu
         'btnFries
         '
         Me.btnFries.BackColor = System.Drawing.Color.Black
-        Me.btnFries.Font = New System.Drawing.Font("Tekton Pro", 18.0!, System.Drawing.FontStyle.Bold)
+        Me.btnFries.Font = New System.Drawing.Font("Tekton Pro", 21.0!, System.Drawing.FontStyle.Bold)
         Me.btnFries.ForeColor = System.Drawing.Color.White
         Me.btnFries.Location = New System.Drawing.Point(454, 176)
         Me.btnFries.Name = "btnFries"
@@ -70,7 +70,7 @@ Partial Class frmMainMenu
         'btnDrinks
         '
         Me.btnDrinks.BackColor = System.Drawing.Color.Black
-        Me.btnDrinks.Font = New System.Drawing.Font("Tekton Pro", 18.0!, System.Drawing.FontStyle.Bold)
+        Me.btnDrinks.Font = New System.Drawing.Font("Tekton Pro", 21.0!, System.Drawing.FontStyle.Bold)
         Me.btnDrinks.ForeColor = System.Drawing.Color.White
         Me.btnDrinks.Location = New System.Drawing.Point(633, 176)
         Me.btnDrinks.Name = "btnDrinks"
@@ -82,7 +82,7 @@ Partial Class frmMainMenu
         'btnCompleteOrder
         '
         Me.btnCompleteOrder.BackColor = System.Drawing.Color.Black
-        Me.btnCompleteOrder.Font = New System.Drawing.Font("Tekton Pro", 18.0!, System.Drawing.FontStyle.Bold)
+        Me.btnCompleteOrder.Font = New System.Drawing.Font("Tekton Pro", 21.0!, System.Drawing.FontStyle.Bold)
         Me.btnCompleteOrder.ForeColor = System.Drawing.Color.White
         Me.btnCompleteOrder.Location = New System.Drawing.Point(365, 287)
         Me.btnCompleteOrder.Name = "btnCompleteOrder"
@@ -94,7 +94,7 @@ Partial Class frmMainMenu
         'btnCancelOrder
         '
         Me.btnCancelOrder.BackColor = System.Drawing.Color.Black
-        Me.btnCancelOrder.Font = New System.Drawing.Font("Tekton Pro", 18.0!, System.Drawing.FontStyle.Bold)
+        Me.btnCancelOrder.Font = New System.Drawing.Font("Tekton Pro", 21.0!, System.Drawing.FontStyle.Bold)
         Me.btnCancelOrder.ForeColor = System.Drawing.Color.White
         Me.btnCancelOrder.Location = New System.Drawing.Point(545, 287)
         Me.btnCancelOrder.Name = "btnCancelOrder"
