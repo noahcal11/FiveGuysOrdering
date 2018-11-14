@@ -72,6 +72,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Burgers.Designer.vb">
+      <DependentUpon>Burgers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Burgers.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Checkout.Designer.vb">
       <DependentUpon>Checkout.vb</DependentUpon>
     </Compile>
@@ -96,6 +102,12 @@
     <Compile Include="Fries.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="HotDogs.Designer.vb">
+      <DependentUpon>HotDogs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HotDogs.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MainMenu.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -118,8 +130,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Sandwiches.Designer.vb">
+      <DependentUpon>Sandwiches.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sandwiches.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Burgers.resx">
+      <DependentUpon>Burgers.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Checkout.resx">
       <DependentUpon>Checkout.vb</DependentUpon>
     </EmbeddedResource>
@@ -132,6 +153,9 @@
     <EmbeddedResource Include="Fries.resx">
       <DependentUpon>Fries.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HotDogs.resx">
+      <DependentUpon>HotDogs.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.vb</DependentUpon>
     </EmbeddedResource>
@@ -140,6 +164,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sandwiches.resx">
+      <DependentUpon>Sandwiches.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

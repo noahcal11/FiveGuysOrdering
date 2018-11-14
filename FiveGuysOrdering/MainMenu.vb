@@ -30,7 +30,7 @@ Public Class frmMainMenu
 
     End Sub
 
-    Private Sub btnCompleteOrder_Click(sender As Object, e As EventArgs) Handles btnCompleteOrder.Click
+    Private Sub btnGoToCheckout_Click(sender As Object, e As EventArgs) Handles btnGoToCheckout.Click
         ' Opens checkout form, closes main menu form
 
         Me.Hide()
@@ -44,6 +44,7 @@ Public Class frmMainMenu
         Me.lstMainMenu.Items.Clear()
         frmCheckout.lstCheckout.Items.Clear()
         decTotal = 0
+        frmCheckout.lblTotal.Text = "Total: " & decTotal.ToString("C")
 
     End Sub
 End Class
