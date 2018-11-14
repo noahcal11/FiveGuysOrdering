@@ -168,7 +168,7 @@ Partial Class frmFries
         'picFries2
         '
         Me.picFries2.Image = Global.FiveGuysOrdering.My.Resources.Resources.Fries
-        Me.picFries2.Location = New System.Drawing.Point(459, 184)
+        Me.picFries2.Location = New System.Drawing.Point(461, 97)
         Me.picFries2.Name = "picFries2"
         Me.picFries2.Size = New System.Drawing.Size(327, 215)
         Me.picFries2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
