@@ -69,10 +69,10 @@ Partial Class frmFries
         'lblStyle
         '
         Me.lblStyle.AutoSize = True
-        Me.lblStyle.Font = New System.Drawing.Font("Lithos Pro Regular", 20.0!, System.Drawing.FontStyle.Bold)
+        Me.lblStyle.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Bold)
         Me.lblStyle.Location = New System.Drawing.Point(108, 128)
         Me.lblStyle.Name = "lblStyle"
-        Me.lblStyle.Size = New System.Drawing.Size(94, 35)
+        Me.lblStyle.Size = New System.Drawing.Size(80, 31)
         Me.lblStyle.TabIndex = 9
         Me.lblStyle.Text = "Style"
         '
@@ -112,10 +112,10 @@ Partial Class frmFries
         'lblSize
         '
         Me.lblSize.AutoSize = True
-        Me.lblSize.Font = New System.Drawing.Font("Lithos Pro Regular", 20.0!, System.Drawing.FontStyle.Bold)
+        Me.lblSize.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Bold)
         Me.lblSize.Location = New System.Drawing.Point(327, 128)
         Me.lblSize.Name = "lblSize"
-        Me.lblSize.Size = New System.Drawing.Size(74, 35)
+        Me.lblSize.Size = New System.Drawing.Size(71, 31)
         Me.lblSize.TabIndex = 11
         Me.lblSize.Text = "Size"
         '
@@ -168,7 +168,7 @@ Partial Class frmFries
         'picFries2
         '
         Me.picFries2.Image = Global.FiveGuysOrdering.My.Resources.Resources.Fries
-        Me.picFries2.Location = New System.Drawing.Point(461, 191)
+        Me.picFries2.Location = New System.Drawing.Point(459, 184)
         Me.picFries2.Name = "picFries2"
         Me.picFries2.Size = New System.Drawing.Size(327, 215)
         Me.picFries2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
