@@ -23,25 +23,15 @@ Partial Class frmMainMenu
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmMainMenu))
-        Me.picLogo = New System.Windows.Forms.PictureBox()
         Me.btnEntrees = New System.Windows.Forms.Button()
         Me.btnFries = New System.Windows.Forms.Button()
         Me.btnDrinks = New System.Windows.Forms.Button()
-        Me.btnCompleteOrder = New System.Windows.Forms.Button()
+        Me.btnGoToCheckout = New System.Windows.Forms.Button()
         Me.btnCancelOrder = New System.Windows.Forms.Button()
         Me.lstMainMenu = New System.Windows.Forms.ListBox()
+        Me.picLogo = New System.Windows.Forms.PictureBox()
         CType(Me.picLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'picLogo
-        '
-        Me.picLogo.Image = Global.FiveGuysOrdering.My.Resources.Resources.FiveGuysLogo__2_
-        Me.picLogo.Location = New System.Drawing.Point(257, 21)
-        Me.picLogo.Name = "picLogo"
-        Me.picLogo.Size = New System.Drawing.Size(286, 75)
-        Me.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.picLogo.TabIndex = 0
-        Me.picLogo.TabStop = False
         '
         'btnEntrees
         '
@@ -79,17 +69,17 @@ Partial Class frmMainMenu
         Me.btnDrinks.Text = "Drinks"
         Me.btnDrinks.UseVisualStyleBackColor = False
         '
-        'btnCompleteOrder
+        'btnGoToCheckout
         '
-        Me.btnCompleteOrder.BackColor = System.Drawing.Color.Black
-        Me.btnCompleteOrder.Font = New System.Drawing.Font("Tekton Pro", 21.0!, System.Drawing.FontStyle.Bold)
-        Me.btnCompleteOrder.ForeColor = System.Drawing.Color.White
-        Me.btnCompleteOrder.Location = New System.Drawing.Point(365, 287)
-        Me.btnCompleteOrder.Name = "btnCompleteOrder"
-        Me.btnCompleteOrder.Size = New System.Drawing.Size(146, 77)
-        Me.btnCompleteOrder.TabIndex = 4
-        Me.btnCompleteOrder.Text = "Complete" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Order"
-        Me.btnCompleteOrder.UseVisualStyleBackColor = False
+        Me.btnGoToCheckout.BackColor = System.Drawing.Color.Black
+        Me.btnGoToCheckout.Font = New System.Drawing.Font("Tekton Pro", 21.0!, System.Drawing.FontStyle.Bold)
+        Me.btnGoToCheckout.ForeColor = System.Drawing.Color.White
+        Me.btnGoToCheckout.Location = New System.Drawing.Point(365, 287)
+        Me.btnGoToCheckout.Name = "btnGoToCheckout"
+        Me.btnGoToCheckout.Size = New System.Drawing.Size(146, 77)
+        Me.btnGoToCheckout.TabIndex = 4
+        Me.btnGoToCheckout.Text = "Go To" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Checkout"
+        Me.btnGoToCheckout.UseVisualStyleBackColor = False
         '
         'btnCancelOrder
         '
@@ -113,6 +103,16 @@ Partial Class frmMainMenu
         Me.lstMainMenu.Size = New System.Drawing.Size(224, 293)
         Me.lstMainMenu.TabIndex = 6
         '
+        'picLogo
+        '
+        Me.picLogo.Image = Global.FiveGuysOrdering.My.Resources.Resources.FiveGuysLogo__2_
+        Me.picLogo.Location = New System.Drawing.Point(257, 21)
+        Me.picLogo.Name = "picLogo"
+        Me.picLogo.Size = New System.Drawing.Size(286, 75)
+        Me.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picLogo.TabIndex = 0
+        Me.picLogo.TabStop = False
+        '
         'frmMainMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -121,7 +121,7 @@ Partial Class frmMainMenu
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.lstMainMenu)
         Me.Controls.Add(Me.btnCancelOrder)
-        Me.Controls.Add(Me.btnCompleteOrder)
+        Me.Controls.Add(Me.btnGoToCheckout)
         Me.Controls.Add(Me.btnDrinks)
         Me.Controls.Add(Me.btnFries)
         Me.Controls.Add(Me.btnEntrees)
@@ -138,7 +138,7 @@ Partial Class frmMainMenu
     Friend WithEvents btnEntrees As Button
     Friend WithEvents btnFries As Button
     Friend WithEvents btnDrinks As Button
-    Friend WithEvents btnCompleteOrder As Button
+    Friend WithEvents btnGoToCheckout As Button
     Friend WithEvents btnCancelOrder As Button
     Friend WithEvents lstMainMenu As ListBox
 End Class

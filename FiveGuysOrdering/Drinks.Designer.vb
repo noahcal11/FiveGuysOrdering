@@ -80,10 +80,10 @@ Partial Class frmDrinks
         'lblRegDrink
         '
         Me.lblRegDrink.AutoSize = True
-        Me.lblRegDrink.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblRegDrink.Location = New System.Drawing.Point(24, 117)
+        Me.lblRegDrink.Font = New System.Drawing.Font("Perpetua Titling MT", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblRegDrink.Location = New System.Drawing.Point(2, 116)
         Me.lblRegDrink.Name = "lblRegDrink"
-        Me.lblRegDrink.Size = New System.Drawing.Size(173, 29)
+        Me.lblRegDrink.Size = New System.Drawing.Size(262, 32)
         Me.lblRegDrink.TabIndex = 8
         Me.lblRegDrink.Text = "Regular Drink"
         '
@@ -114,20 +114,20 @@ Partial Class frmDrinks
         'lblLgDrink
         '
         Me.lblLgDrink.AutoSize = True
-        Me.lblLgDrink.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold)
-        Me.lblLgDrink.Location = New System.Drawing.Point(297, 117)
+        Me.lblLgDrink.Font = New System.Drawing.Font("Perpetua Titling MT", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLgDrink.Location = New System.Drawing.Point(279, 117)
         Me.lblLgDrink.Name = "lblLgDrink"
-        Me.lblLgDrink.Size = New System.Drawing.Size(148, 29)
+        Me.lblLgDrink.Size = New System.Drawing.Size(218, 32)
         Me.lblLgDrink.TabIndex = 12
         Me.lblLgDrink.Text = "Large Drink"
         '
         'lblWater
         '
         Me.lblWater.AutoSize = True
-        Me.lblWater.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold)
-        Me.lblWater.Location = New System.Drawing.Point(535, 117)
+        Me.lblWater.Font = New System.Drawing.Font("Perpetua Titling MT", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblWater.Location = New System.Drawing.Point(511, 117)
         Me.lblWater.Name = "lblWater"
-        Me.lblWater.Size = New System.Drawing.Size(171, 29)
+        Me.lblWater.Size = New System.Drawing.Size(264, 32)
         Me.lblWater.TabIndex = 13
         Me.lblWater.Text = "Bottled Water"
         '

@@ -34,9 +34,9 @@ Partial Class frmFries
         Me.radLarge = New System.Windows.Forms.RadioButton()
         Me.radRegularSize = New System.Windows.Forms.RadioButton()
         Me.radLittle = New System.Windows.Forms.RadioButton()
+        Me.btnFries = New System.Windows.Forms.Button()
         Me.picFries2 = New System.Windows.Forms.PictureBox()
         Me.picFries1 = New System.Windows.Forms.PictureBox()
-        Me.btnFries = New System.Windows.Forms.Button()
         Me.pnlStyle.SuspendLayout()
         Me.pnlSize.SuspendLayout()
         CType(Me.picFries2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -93,13 +93,13 @@ Partial Class frmFries
         Me.radCajun.Name = "radCajun"
         Me.radCajun.Size = New System.Drawing.Size(78, 31)
         Me.radCajun.TabIndex = 1
-        Me.radCajun.TabStop = True
         Me.radCajun.Text = "Cajun"
         Me.radCajun.UseVisualStyleBackColor = True
         '
         'radRegular
         '
         Me.radRegular.AutoSize = True
+        Me.radRegular.Checked = True
         Me.radRegular.Font = New System.Drawing.Font("Tekton Pro", 16.0!, System.Drawing.FontStyle.Bold)
         Me.radRegular.Location = New System.Drawing.Point(3, 3)
         Me.radRegular.Name = "radRegular"
@@ -137,7 +137,6 @@ Partial Class frmFries
         Me.radLarge.Name = "radLarge"
         Me.radLarge.Size = New System.Drawing.Size(158, 31)
         Me.radLarge.TabIndex = 2
-        Me.radLarge.TabStop = True
         Me.radLarge.Text = "Large ($6.19)"
         Me.radLarge.UseVisualStyleBackColor = True
         '
@@ -149,13 +148,13 @@ Partial Class frmFries
         Me.radRegularSize.Name = "radRegularSize"
         Me.radRegularSize.Size = New System.Drawing.Size(177, 31)
         Me.radRegularSize.TabIndex = 1
-        Me.radRegularSize.TabStop = True
         Me.radRegularSize.Text = "Regular ($4.49)"
         Me.radRegularSize.UseVisualStyleBackColor = True
         '
         'radLittle
         '
         Me.radLittle.AutoSize = True
+        Me.radLittle.Checked = True
         Me.radLittle.Font = New System.Drawing.Font("Tekton Pro", 16.0!, System.Drawing.FontStyle.Bold)
         Me.radLittle.Location = New System.Drawing.Point(3, 3)
         Me.radLittle.Name = "radLittle"
@@ -165,10 +164,22 @@ Partial Class frmFries
         Me.radLittle.Text = "Little ($3.49)"
         Me.radLittle.UseVisualStyleBackColor = True
         '
+        'btnFries
+        '
+        Me.btnFries.BackColor = System.Drawing.Color.Black
+        Me.btnFries.Font = New System.Drawing.Font("Tekton Pro", 16.0!, System.Drawing.FontStyle.Bold)
+        Me.btnFries.ForeColor = System.Drawing.Color.White
+        Me.btnFries.Location = New System.Drawing.Point(295, 309)
+        Me.btnFries.Name = "btnFries"
+        Me.btnFries.Size = New System.Drawing.Size(138, 33)
+        Me.btnFries.TabIndex = 15
+        Me.btnFries.Text = "Add to Order"
+        Me.btnFries.UseVisualStyleBackColor = False
+        '
         'picFries2
         '
         Me.picFries2.Image = Global.FiveGuysOrdering.My.Resources.Resources.Fries
-        Me.picFries2.Location = New System.Drawing.Point(461, 97)
+        Me.picFries2.Location = New System.Drawing.Point(461, 151)
         Me.picFries2.Name = "picFries2"
         Me.picFries2.Size = New System.Drawing.Size(327, 215)
         Me.picFries2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -184,18 +195,6 @@ Partial Class frmFries
         Me.picFries1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picFries1.TabIndex = 13
         Me.picFries1.TabStop = False
-        '
-        'btnFries
-        '
-        Me.btnFries.BackColor = System.Drawing.Color.Black
-        Me.btnFries.Font = New System.Drawing.Font("Tekton Pro", 16.0!, System.Drawing.FontStyle.Bold)
-        Me.btnFries.ForeColor = System.Drawing.Color.White
-        Me.btnFries.Location = New System.Drawing.Point(295, 309)
-        Me.btnFries.Name = "btnFries"
-        Me.btnFries.Size = New System.Drawing.Size(138, 33)
-        Me.btnFries.TabIndex = 15
-        Me.btnFries.Text = "Add to Order"
-        Me.btnFries.UseVisualStyleBackColor = False
         '
         'frmFries
         '
