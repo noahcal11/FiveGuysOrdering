@@ -22,11 +22,6 @@
 
     ' Gets checkboxes from toppings form
     Public Shared Sub getcheckme(ByVal element As Control)
-        If TypeOf element Is CheckBox Then
-            If DirectCast(element, CheckBox).Checked = True Then
-                frmMainMenu.lstMainMenu.Items.Add(" " & element.Text)
-                frmCheckout.lstCheckout.Items.Add(" " & element.Text)
-            End If
-        End If
+
     End Sub
 End Class
