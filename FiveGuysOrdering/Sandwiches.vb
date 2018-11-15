@@ -14,4 +14,11 @@
         frmEntrees.Show()
 
     End Sub
+
+    Private Sub btnVeggie_Click(sender As Object, e As EventArgs) Handles btnVeggie.Click
+        ' Opens toppings form, DOES MORE
+
+        frmToppings.Show()
+        ' MORE CODE HERE
+    End Sub
 End Class

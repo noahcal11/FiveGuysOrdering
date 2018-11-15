@@ -93,9 +93,29 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property FiveGuysBLT() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("FiveGuysBLT", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property FiveGuysLogo__2_() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("FiveGuysLogo (2)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property FiveGuysVeggie() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("FiveGuysVeggie", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

@@ -136,6 +136,12 @@
     <Compile Include="Sandwiches.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Toppings.Designer.vb">
+      <DependentUpon>Toppings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Toppings.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Burgers.resx">
@@ -167,6 +173,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Sandwiches.resx">
       <DependentUpon>Sandwiches.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Toppings.resx">
+      <DependentUpon>Toppings.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -207,6 +216,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\HotDogButton.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FiveGuysBLT.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FiveGuysVeggie.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -31,12 +31,12 @@ Partial Class frmDrinks
         Me.btnWater = New System.Windows.Forms.Button()
         Me.lblLgDrink = New System.Windows.Forms.Label()
         Me.lblWater = New System.Windows.Forms.Label()
-        Me.picWater = New System.Windows.Forms.PictureBox()
-        Me.picLgDrink = New System.Windows.Forms.PictureBox()
-        Me.picRegDrink = New System.Windows.Forms.PictureBox()
         Me.lblWaterPrice = New System.Windows.Forms.Label()
         Me.lblLgDrinkPrice = New System.Windows.Forms.Label()
         Me.lblRegDrinkPrice = New System.Windows.Forms.Label()
+        Me.picWater = New System.Windows.Forms.PictureBox()
+        Me.picLgDrink = New System.Windows.Forms.PictureBox()
+        Me.picRegDrink = New System.Windows.Forms.PictureBox()
         CType(Me.picWater, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picLgDrink, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picRegDrink, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -80,7 +80,7 @@ Partial Class frmDrinks
         'lblRegDrink
         '
         Me.lblRegDrink.AutoSize = True
-        Me.lblRegDrink.Font = New System.Drawing.Font("Perpetua Titling MT", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblRegDrink.Font = New System.Drawing.Font("Perpetua Titling MT", 20.0!, System.Drawing.FontStyle.Bold)
         Me.lblRegDrink.Location = New System.Drawing.Point(2, 116)
         Me.lblRegDrink.Name = "lblRegDrink"
         Me.lblRegDrink.Size = New System.Drawing.Size(262, 32)
@@ -114,7 +114,7 @@ Partial Class frmDrinks
         'lblLgDrink
         '
         Me.lblLgDrink.AutoSize = True
-        Me.lblLgDrink.Font = New System.Drawing.Font("Perpetua Titling MT", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLgDrink.Font = New System.Drawing.Font("Perpetua Titling MT", 20.0!, System.Drawing.FontStyle.Bold)
         Me.lblLgDrink.Location = New System.Drawing.Point(279, 117)
         Me.lblLgDrink.Name = "lblLgDrink"
         Me.lblLgDrink.Size = New System.Drawing.Size(218, 32)
@@ -124,12 +124,45 @@ Partial Class frmDrinks
         'lblWater
         '
         Me.lblWater.AutoSize = True
-        Me.lblWater.Font = New System.Drawing.Font("Perpetua Titling MT", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblWater.Font = New System.Drawing.Font("Perpetua Titling MT", 20.0!, System.Drawing.FontStyle.Bold)
         Me.lblWater.Location = New System.Drawing.Point(511, 117)
         Me.lblWater.Name = "lblWater"
         Me.lblWater.Size = New System.Drawing.Size(264, 32)
         Me.lblWater.TabIndex = 13
         Me.lblWater.Text = "Bottled Water"
+        '
+        'lblWaterPrice
+        '
+        Me.lblWaterPrice.AutoSize = True
+        Me.lblWaterPrice.Font = New System.Drawing.Font("Rockwell", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblWaterPrice.ForeColor = System.Drawing.Color.White
+        Me.lblWaterPrice.Location = New System.Drawing.Point(606, 394)
+        Me.lblWaterPrice.Name = "lblWaterPrice"
+        Me.lblWaterPrice.Size = New System.Drawing.Size(75, 29)
+        Me.lblWaterPrice.TabIndex = 15
+        Me.lblWaterPrice.Text = "$2.19"
+        '
+        'lblLgDrinkPrice
+        '
+        Me.lblLgDrinkPrice.AutoSize = True
+        Me.lblLgDrinkPrice.Font = New System.Drawing.Font("Rockwell", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLgDrinkPrice.ForeColor = System.Drawing.Color.White
+        Me.lblLgDrinkPrice.Location = New System.Drawing.Point(351, 394)
+        Me.lblLgDrinkPrice.Name = "lblLgDrinkPrice"
+        Me.lblLgDrinkPrice.Size = New System.Drawing.Size(75, 29)
+        Me.lblLgDrinkPrice.TabIndex = 16
+        Me.lblLgDrinkPrice.Text = "$2.79"
+        '
+        'lblRegDrinkPrice
+        '
+        Me.lblRegDrinkPrice.AutoSize = True
+        Me.lblRegDrinkPrice.Font = New System.Drawing.Font("Rockwell", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblRegDrinkPrice.ForeColor = System.Drawing.Color.White
+        Me.lblRegDrinkPrice.Location = New System.Drawing.Point(96, 394)
+        Me.lblRegDrinkPrice.Name = "lblRegDrinkPrice"
+        Me.lblRegDrinkPrice.Size = New System.Drawing.Size(75, 29)
+        Me.lblRegDrinkPrice.TabIndex = 17
+        Me.lblRegDrinkPrice.Text = "$2.49"
         '
         'picWater
         '
@@ -160,39 +193,6 @@ Partial Class frmDrinks
         Me.picRegDrink.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picRegDrink.TabIndex = 7
         Me.picRegDrink.TabStop = False
-        '
-        'lblWaterPrice
-        '
-        Me.lblWaterPrice.AutoSize = True
-        Me.lblWaterPrice.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold)
-        Me.lblWaterPrice.ForeColor = System.Drawing.Color.White
-        Me.lblWaterPrice.Location = New System.Drawing.Point(598, 394)
-        Me.lblWaterPrice.Name = "lblWaterPrice"
-        Me.lblWaterPrice.Size = New System.Drawing.Size(76, 29)
-        Me.lblWaterPrice.TabIndex = 15
-        Me.lblWaterPrice.Text = "$2.19"
-        '
-        'lblLgDrinkPrice
-        '
-        Me.lblLgDrinkPrice.AutoSize = True
-        Me.lblLgDrinkPrice.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold)
-        Me.lblLgDrinkPrice.ForeColor = System.Drawing.Color.White
-        Me.lblLgDrinkPrice.Location = New System.Drawing.Point(336, 394)
-        Me.lblLgDrinkPrice.Name = "lblLgDrinkPrice"
-        Me.lblLgDrinkPrice.Size = New System.Drawing.Size(76, 29)
-        Me.lblLgDrinkPrice.TabIndex = 16
-        Me.lblLgDrinkPrice.Text = "$2.79"
-        '
-        'lblRegDrinkPrice
-        '
-        Me.lblRegDrinkPrice.AutoSize = True
-        Me.lblRegDrinkPrice.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold)
-        Me.lblRegDrinkPrice.ForeColor = System.Drawing.Color.White
-        Me.lblRegDrinkPrice.Location = New System.Drawing.Point(88, 394)
-        Me.lblRegDrinkPrice.Name = "lblRegDrinkPrice"
-        Me.lblRegDrinkPrice.Size = New System.Drawing.Size(76, 29)
-        Me.lblRegDrinkPrice.TabIndex = 17
-        Me.lblRegDrinkPrice.Text = "$2.49"
         '
         'frmDrinks
         '

@@ -74,7 +74,7 @@ Partial Class frmHotDogs
         Me.Controls.Add(Me.lblHotDogs)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frmHotDogs"
-        Me.Text = "HotDogsvb"
+        Me.Text = "Five Guys"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
