@@ -16,9 +16,29 @@
     End Sub
 
     Private Sub btnVeggie_Click(sender As Object, e As EventArgs) Handles btnVeggie.Click
-        ' Opens toppings form, DOES MORE
+        ' Opens toppings form, defines name and cost for toppings form
 
         frmToppings.Show()
-        ' MORE CODE HERE
+
+        frmMainMenu.strProductName = "Veggie Sandwich"
+        If chkVeggieCheese.Checked = True Then
+            frmMainMenu.decAddedPrice = 4.89
+        Else
+            frmMainMenu.decAddedPrice = 4.19
+        End If
+    End Sub
+
+    Private Sub btnGrilledCheese_Click(sender As Object, e As EventArgs) Handles btnGrilledCheese.Click
+        ' Adds grilled cheese to order
+
+        AddToOrder.AddItem(ItemCost:=4.89, ItemName:="Grilled Cheese")
+
+    End Sub
+
+    Private Sub btnBLT_Click(sender As Object, e As EventArgs) Handles btnBLT.Click
+        ' Adds BLT to order
+
+        AddToOrder.AddItem(ItemCost:=6.09, ItemName:="BLT")
+
     End Sub
 End Class

@@ -72,6 +72,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddToOrder.vb" />
     <Compile Include="Burgers.Designer.vb">
       <DependentUpon>Burgers.vb</DependentUpon>
     </Compile>
