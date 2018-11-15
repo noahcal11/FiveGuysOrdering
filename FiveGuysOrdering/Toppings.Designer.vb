@@ -25,15 +25,6 @@ Partial Class frmToppings
         Me.lblSelectToppings = New System.Windows.Forms.Label()
         Me.btnToppingsConfirm = New System.Windows.Forms.Button()
         Me.pnlToppings = New System.Windows.Forms.Panel()
-        Me.chkKetchup = New System.Windows.Forms.CheckBox()
-        Me.chkMustard = New System.Windows.Forms.CheckBox()
-        Me.chkGreenPeppers = New System.Windows.Forms.CheckBox()
-        Me.chkJalapeño = New System.Windows.Forms.CheckBox()
-        Me.chkGrilledJalapeños = New System.Windows.Forms.CheckBox()
-        Me.chkHotSauce = New System.Windows.Forms.CheckBox()
-        Me.chkBBQ = New System.Windows.Forms.CheckBox()
-        Me.chkA1 = New System.Windows.Forms.CheckBox()
-        Me.chkMayo = New System.Windows.Forms.CheckBox()
         Me.chkGrilledGreenPeppers = New System.Windows.Forms.CheckBox()
         Me.chkGrilledMushrooms = New System.Windows.Forms.CheckBox()
         Me.chkGrilledOnions = New System.Windows.Forms.CheckBox()
@@ -42,6 +33,15 @@ Partial Class frmToppings
         Me.chkLettuce = New System.Windows.Forms.CheckBox()
         Me.chkOnion = New System.Windows.Forms.CheckBox()
         Me.chkRelish = New System.Windows.Forms.CheckBox()
+        Me.chkMayo = New System.Windows.Forms.CheckBox()
+        Me.chkGrilledJalapeños = New System.Windows.Forms.CheckBox()
+        Me.chkHotSauce = New System.Windows.Forms.CheckBox()
+        Me.chkBBQ = New System.Windows.Forms.CheckBox()
+        Me.chkA1 = New System.Windows.Forms.CheckBox()
+        Me.chkGreenPeppers = New System.Windows.Forms.CheckBox()
+        Me.chkJalapeño = New System.Windows.Forms.CheckBox()
+        Me.chkMustard = New System.Windows.Forms.CheckBox()
+        Me.chkKetchup = New System.Windows.Forms.CheckBox()
         Me.pnlToppings.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -91,105 +91,6 @@ Partial Class frmToppings
         Me.pnlToppings.Name = "pnlToppings"
         Me.pnlToppings.Size = New System.Drawing.Size(291, 247)
         Me.pnlToppings.TabIndex = 22
-        '
-        'chkKetchup
-        '
-        Me.chkKetchup.AutoSize = True
-        Me.chkKetchup.Font = New System.Drawing.Font("Tekton Pro", 10.0!, System.Drawing.FontStyle.Bold)
-        Me.chkKetchup.Location = New System.Drawing.Point(3, 3)
-        Me.chkKetchup.Name = "chkKetchup"
-        Me.chkKetchup.Size = New System.Drawing.Size(76, 21)
-        Me.chkKetchup.TabIndex = 0
-        Me.chkKetchup.Text = "Ketchup"
-        Me.chkKetchup.UseVisualStyleBackColor = True
-        '
-        'chkMustard
-        '
-        Me.chkMustard.AutoSize = True
-        Me.chkMustard.Font = New System.Drawing.Font("Tekton Pro", 10.0!, System.Drawing.FontStyle.Bold)
-        Me.chkMustard.Location = New System.Drawing.Point(3, 30)
-        Me.chkMustard.Name = "chkMustard"
-        Me.chkMustard.Size = New System.Drawing.Size(78, 21)
-        Me.chkMustard.TabIndex = 1
-        Me.chkMustard.Text = "Mustard"
-        Me.chkMustard.UseVisualStyleBackColor = True
-        '
-        'chkGreenPeppers
-        '
-        Me.chkGreenPeppers.AutoSize = True
-        Me.chkGreenPeppers.Font = New System.Drawing.Font("Tekton Pro", 10.0!, System.Drawing.FontStyle.Bold)
-        Me.chkGreenPeppers.Location = New System.Drawing.Point(3, 84)
-        Me.chkGreenPeppers.Name = "chkGreenPeppers"
-        Me.chkGreenPeppers.Size = New System.Drawing.Size(113, 21)
-        Me.chkGreenPeppers.TabIndex = 3
-        Me.chkGreenPeppers.Text = "Green Peppers"
-        Me.chkGreenPeppers.UseVisualStyleBackColor = True
-        '
-        'chkJalapeño
-        '
-        Me.chkJalapeño.AutoSize = True
-        Me.chkJalapeño.Font = New System.Drawing.Font("Tekton Pro", 10.0!, System.Drawing.FontStyle.Bold)
-        Me.chkJalapeño.Location = New System.Drawing.Point(3, 57)
-        Me.chkJalapeño.Name = "chkJalapeño"
-        Me.chkJalapeño.Size = New System.Drawing.Size(129, 21)
-        Me.chkJalapeño.TabIndex = 2
-        Me.chkJalapeño.Text = "Jalapeño Peppers"
-        Me.chkJalapeño.UseVisualStyleBackColor = True
-        '
-        'chkGrilledJalapeños
-        '
-        Me.chkGrilledJalapeños.AutoSize = True
-        Me.chkGrilledJalapeños.Font = New System.Drawing.Font("Tekton Pro", 10.0!, System.Drawing.FontStyle.Bold)
-        Me.chkGrilledJalapeños.Location = New System.Drawing.Point(3, 192)
-        Me.chkGrilledJalapeños.Name = "chkGrilledJalapeños"
-        Me.chkGrilledJalapeños.Size = New System.Drawing.Size(127, 21)
-        Me.chkGrilledJalapeños.TabIndex = 7
-        Me.chkGrilledJalapeños.Text = "Grilled Jalapeños"
-        Me.chkGrilledJalapeños.UseVisualStyleBackColor = True
-        '
-        'chkHotSauce
-        '
-        Me.chkHotSauce.AutoSize = True
-        Me.chkHotSauce.Font = New System.Drawing.Font("Tekton Pro", 10.0!, System.Drawing.FontStyle.Bold)
-        Me.chkHotSauce.Location = New System.Drawing.Point(3, 165)
-        Me.chkHotSauce.Name = "chkHotSauce"
-        Me.chkHotSauce.Size = New System.Drawing.Size(89, 21)
-        Me.chkHotSauce.TabIndex = 6
-        Me.chkHotSauce.Text = "Hot Sauce"
-        Me.chkHotSauce.UseVisualStyleBackColor = True
-        '
-        'chkBBQ
-        '
-        Me.chkBBQ.AutoSize = True
-        Me.chkBBQ.Font = New System.Drawing.Font("Tekton Pro", 10.0!, System.Drawing.FontStyle.Bold)
-        Me.chkBBQ.Location = New System.Drawing.Point(3, 138)
-        Me.chkBBQ.Name = "chkBBQ"
-        Me.chkBBQ.Size = New System.Drawing.Size(93, 21)
-        Me.chkBBQ.TabIndex = 5
-        Me.chkBBQ.Text = "BBQ Sauce"
-        Me.chkBBQ.UseVisualStyleBackColor = True
-        '
-        'chkA1
-        '
-        Me.chkA1.AutoSize = True
-        Me.chkA1.Font = New System.Drawing.Font("Tekton Pro", 10.0!, System.Drawing.FontStyle.Bold)
-        Me.chkA1.Location = New System.Drawing.Point(3, 111)
-        Me.chkA1.Name = "chkA1"
-        Me.chkA1.Size = New System.Drawing.Size(123, 21)
-        Me.chkA1.TabIndex = 4
-        Me.chkA1.Text = "A1 Steak Sauce"
-        Me.chkA1.UseVisualStyleBackColor = True
-        '
-        'chkMayo
-        '
-        Me.chkMayo.AutoSize = True
-        Me.chkMayo.Font = New System.Drawing.Font("Tekton Pro", 10.0!, System.Drawing.FontStyle.Bold)
-        Me.chkMayo.Location = New System.Drawing.Point(3, 219)
-        Me.chkMayo.Name = "chkMayo"
-        Me.chkMayo.Size = New System.Drawing.Size(59, 21)
-        Me.chkMayo.TabIndex = 8
-        Me.chkMayo.Text = "Mayo"
-        Me.chkMayo.UseVisualStyleBackColor = True
         '
         'chkGrilledGreenPeppers
         '
@@ -278,6 +179,105 @@ Partial Class frmToppings
         Me.chkRelish.TabIndex = 9
         Me.chkRelish.Text = "Relish"
         Me.chkRelish.UseVisualStyleBackColor = True
+        '
+        'chkMayo
+        '
+        Me.chkMayo.AutoSize = True
+        Me.chkMayo.Font = New System.Drawing.Font("Tekton Pro", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.chkMayo.Location = New System.Drawing.Point(3, 219)
+        Me.chkMayo.Name = "chkMayo"
+        Me.chkMayo.Size = New System.Drawing.Size(59, 21)
+        Me.chkMayo.TabIndex = 8
+        Me.chkMayo.Text = "Mayo"
+        Me.chkMayo.UseVisualStyleBackColor = True
+        '
+        'chkGrilledJalapeños
+        '
+        Me.chkGrilledJalapeños.AutoSize = True
+        Me.chkGrilledJalapeños.Font = New System.Drawing.Font("Tekton Pro", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.chkGrilledJalapeños.Location = New System.Drawing.Point(3, 192)
+        Me.chkGrilledJalapeños.Name = "chkGrilledJalapeños"
+        Me.chkGrilledJalapeños.Size = New System.Drawing.Size(127, 21)
+        Me.chkGrilledJalapeños.TabIndex = 7
+        Me.chkGrilledJalapeños.Text = "Grilled Jalapeños"
+        Me.chkGrilledJalapeños.UseVisualStyleBackColor = True
+        '
+        'chkHotSauce
+        '
+        Me.chkHotSauce.AutoSize = True
+        Me.chkHotSauce.Font = New System.Drawing.Font("Tekton Pro", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.chkHotSauce.Location = New System.Drawing.Point(3, 165)
+        Me.chkHotSauce.Name = "chkHotSauce"
+        Me.chkHotSauce.Size = New System.Drawing.Size(89, 21)
+        Me.chkHotSauce.TabIndex = 6
+        Me.chkHotSauce.Text = "Hot Sauce"
+        Me.chkHotSauce.UseVisualStyleBackColor = True
+        '
+        'chkBBQ
+        '
+        Me.chkBBQ.AutoSize = True
+        Me.chkBBQ.Font = New System.Drawing.Font("Tekton Pro", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.chkBBQ.Location = New System.Drawing.Point(3, 138)
+        Me.chkBBQ.Name = "chkBBQ"
+        Me.chkBBQ.Size = New System.Drawing.Size(93, 21)
+        Me.chkBBQ.TabIndex = 5
+        Me.chkBBQ.Text = "BBQ Sauce"
+        Me.chkBBQ.UseVisualStyleBackColor = True
+        '
+        'chkA1
+        '
+        Me.chkA1.AutoSize = True
+        Me.chkA1.Font = New System.Drawing.Font("Tekton Pro", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.chkA1.Location = New System.Drawing.Point(3, 111)
+        Me.chkA1.Name = "chkA1"
+        Me.chkA1.Size = New System.Drawing.Size(123, 21)
+        Me.chkA1.TabIndex = 4
+        Me.chkA1.Text = "A1 Steak Sauce"
+        Me.chkA1.UseVisualStyleBackColor = True
+        '
+        'chkGreenPeppers
+        '
+        Me.chkGreenPeppers.AutoSize = True
+        Me.chkGreenPeppers.Font = New System.Drawing.Font("Tekton Pro", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.chkGreenPeppers.Location = New System.Drawing.Point(3, 84)
+        Me.chkGreenPeppers.Name = "chkGreenPeppers"
+        Me.chkGreenPeppers.Size = New System.Drawing.Size(113, 21)
+        Me.chkGreenPeppers.TabIndex = 3
+        Me.chkGreenPeppers.Text = "Green Peppers"
+        Me.chkGreenPeppers.UseVisualStyleBackColor = True
+        '
+        'chkJalapeño
+        '
+        Me.chkJalapeño.AutoSize = True
+        Me.chkJalapeño.Font = New System.Drawing.Font("Tekton Pro", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.chkJalapeño.Location = New System.Drawing.Point(3, 57)
+        Me.chkJalapeño.Name = "chkJalapeño"
+        Me.chkJalapeño.Size = New System.Drawing.Size(129, 21)
+        Me.chkJalapeño.TabIndex = 2
+        Me.chkJalapeño.Text = "Jalapeño Peppers"
+        Me.chkJalapeño.UseVisualStyleBackColor = True
+        '
+        'chkMustard
+        '
+        Me.chkMustard.AutoSize = True
+        Me.chkMustard.Font = New System.Drawing.Font("Tekton Pro", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.chkMustard.Location = New System.Drawing.Point(3, 30)
+        Me.chkMustard.Name = "chkMustard"
+        Me.chkMustard.Size = New System.Drawing.Size(78, 21)
+        Me.chkMustard.TabIndex = 1
+        Me.chkMustard.Text = "Mustard"
+        Me.chkMustard.UseVisualStyleBackColor = True
+        '
+        'chkKetchup
+        '
+        Me.chkKetchup.AutoSize = True
+        Me.chkKetchup.Font = New System.Drawing.Font("Tekton Pro", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.chkKetchup.Location = New System.Drawing.Point(3, 3)
+        Me.chkKetchup.Name = "chkKetchup"
+        Me.chkKetchup.Size = New System.Drawing.Size(76, 21)
+        Me.chkKetchup.TabIndex = 0
+        Me.chkKetchup.Text = "Ketchup"
+        Me.chkKetchup.UseVisualStyleBackColor = True
         '
         'frmToppings
         '

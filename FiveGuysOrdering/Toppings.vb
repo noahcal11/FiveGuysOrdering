@@ -12,7 +12,11 @@
                 End If
             End If
         Next
-        Me.Hide()
 
+        ' Clears all checkboxes
+        For Each element In pnlToppings.Controls
+            DirectCast(element, CheckBox).Checked = False
+        Next
+        Me.Hide()
     End Sub
 End Class
