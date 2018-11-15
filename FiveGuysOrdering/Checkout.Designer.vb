@@ -69,7 +69,7 @@ Partial Class frmCheckout
         Me.lblTotal.AutoSize = True
         Me.lblTotal.Font = New System.Drawing.Font("Tekton Pro", 22.0!, System.Drawing.FontStyle.Bold)
         Me.lblTotal.ForeColor = System.Drawing.Color.White
-        Me.lblTotal.Location = New System.Drawing.Point(221, 389)
+        Me.lblTotal.Location = New System.Drawing.Point(201, 389)
         Me.lblTotal.Name = "lblTotal"
         Me.lblTotal.Size = New System.Drawing.Size(170, 36)
         Me.lblTotal.TabIndex = 3

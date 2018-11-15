@@ -6,6 +6,10 @@
 Public Class frmMainMenu
     ' Total price variable
     Public decTotal As Decimal = 0
+    ' Defining more variables
+    Public decAddedPrice As Decimal
+    Public strProductName As String
+
     Private Sub btnEntrees_Click(sender As Object, e As EventArgs) Handles btnEntrees.Click
         ' Opens entrees form, closes main menu form
 
