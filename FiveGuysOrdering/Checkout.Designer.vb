@@ -36,9 +36,9 @@ Partial Class frmCheckout
         Me.lstCheckout.Font = New System.Drawing.Font("OCR A Extended", 12.0!)
         Me.lstCheckout.FormattingEnabled = True
         Me.lstCheckout.ItemHeight = 17
-        Me.lstCheckout.Location = New System.Drawing.Point(288, 80)
+        Me.lstCheckout.Location = New System.Drawing.Point(239, 80)
         Me.lstCheckout.Name = "lstCheckout"
-        Me.lstCheckout.Size = New System.Drawing.Size(224, 293)
+        Me.lstCheckout.Size = New System.Drawing.Size(323, 293)
         Me.lstCheckout.TabIndex = 0
         '
         'lblCheckout

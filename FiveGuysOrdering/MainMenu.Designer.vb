@@ -95,12 +95,11 @@ Partial Class frmMainMenu
         '
         'lstMainMenu
         '
-        Me.lstMainMenu.Font = New System.Drawing.Font("OCR A Extended", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lstMainMenu.Font = New System.Drawing.Font("OCR A Extended", 9.0!)
         Me.lstMainMenu.FormattingEnabled = True
-        Me.lstMainMenu.ItemHeight = 17
-        Me.lstMainMenu.Location = New System.Drawing.Point(22, 126)
+        Me.lstMainMenu.Location = New System.Drawing.Point(12, 126)
         Me.lstMainMenu.Name = "lstMainMenu"
-        Me.lstMainMenu.Size = New System.Drawing.Size(224, 293)
+        Me.lstMainMenu.Size = New System.Drawing.Size(243, 290)
         Me.lstMainMenu.TabIndex = 6
         '
         'picLogo
