@@ -27,11 +27,12 @@ Partial Class frmHotDogs
         Me.btnMainMenu = New System.Windows.Forms.Button()
         Me.btnEntrees = New System.Windows.Forms.Button()
         Me.gbxHotDogs = New System.Windows.Forms.GroupBox()
-        Me.chkCheese = New System.Windows.Forms.CheckBox()
         Me.chkBacon = New System.Windows.Forms.CheckBox()
+        Me.chkCheese = New System.Windows.Forms.CheckBox()
+        Me.btnHotDogs = New System.Windows.Forms.Button()
         Me.picHotDog2 = New System.Windows.Forms.PictureBox()
         Me.picHotDog = New System.Windows.Forms.PictureBox()
-        Me.btnHotDogs = New System.Windows.Forms.Button()
+        Me.lblHotDogPrice = New System.Windows.Forms.Label()
         Me.gbxHotDogs.SuspendLayout()
         CType(Me.picHotDog2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picHotDog, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -85,6 +86,18 @@ Partial Class frmHotDogs
         Me.gbxHotDogs.TabStop = False
         Me.gbxHotDogs.Text = "Extras"
         '
+        'chkBacon
+        '
+        Me.chkBacon.AutoSize = True
+        Me.chkBacon.Font = New System.Drawing.Font("Tekton Pro", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chkBacon.ForeColor = System.Drawing.Color.White
+        Me.chkBacon.Location = New System.Drawing.Point(6, 65)
+        Me.chkBacon.Name = "chkBacon"
+        Me.chkBacon.Size = New System.Drawing.Size(144, 27)
+        Me.chkBacon.TabIndex = 1
+        Me.chkBacon.Text = "Bacon ($1.00)"
+        Me.chkBacon.UseVisualStyleBackColor = True
+        '
         'chkCheese
         '
         Me.chkCheese.AutoSize = True
@@ -97,17 +110,17 @@ Partial Class frmHotDogs
         Me.chkCheese.Text = "Cheese ($0.70)"
         Me.chkCheese.UseVisualStyleBackColor = True
         '
-        'chkBacon
+        'btnHotDogs
         '
-        Me.chkBacon.AutoSize = True
-        Me.chkBacon.Font = New System.Drawing.Font("Tekton Pro", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkBacon.ForeColor = System.Drawing.Color.White
-        Me.chkBacon.Location = New System.Drawing.Point(6, 65)
-        Me.chkBacon.Name = "chkBacon"
-        Me.chkBacon.Size = New System.Drawing.Size(144, 27)
-        Me.chkBacon.TabIndex = 1
-        Me.chkBacon.Text = "Bacon ($1.00)"
-        Me.chkBacon.UseVisualStyleBackColor = True
+        Me.btnHotDogs.BackColor = System.Drawing.Color.Black
+        Me.btnHotDogs.Font = New System.Drawing.Font("Tekton Pro", 16.0!, System.Drawing.FontStyle.Bold)
+        Me.btnHotDogs.ForeColor = System.Drawing.Color.White
+        Me.btnHotDogs.Location = New System.Drawing.Point(303, 320)
+        Me.btnHotDogs.Name = "btnHotDogs"
+        Me.btnHotDogs.Size = New System.Drawing.Size(170, 33)
+        Me.btnHotDogs.TabIndex = 20
+        Me.btnHotDogs.Text = "Select Toppings"
+        Me.btnHotDogs.UseVisualStyleBackColor = False
         '
         'picHotDog2
         '
@@ -129,17 +142,16 @@ Partial Class frmHotDogs
         Me.picHotDog.TabIndex = 12
         Me.picHotDog.TabStop = False
         '
-        'btnHotDogs
+        'lblHotDogPrice
         '
-        Me.btnHotDogs.BackColor = System.Drawing.Color.Black
-        Me.btnHotDogs.Font = New System.Drawing.Font("Tekton Pro", 16.0!, System.Drawing.FontStyle.Bold)
-        Me.btnHotDogs.ForeColor = System.Drawing.Color.White
-        Me.btnHotDogs.Location = New System.Drawing.Point(303, 320)
-        Me.btnHotDogs.Name = "btnHotDogs"
-        Me.btnHotDogs.Size = New System.Drawing.Size(170, 33)
-        Me.btnHotDogs.TabIndex = 20
-        Me.btnHotDogs.Text = "Select Toppings"
-        Me.btnHotDogs.UseVisualStyleBackColor = False
+        Me.lblHotDogPrice.AutoSize = True
+        Me.lblHotDogPrice.Font = New System.Drawing.Font("Rockwell", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblHotDogPrice.ForeColor = System.Drawing.Color.White
+        Me.lblHotDogPrice.Location = New System.Drawing.Point(351, 386)
+        Me.lblHotDogPrice.Name = "lblHotDogPrice"
+        Me.lblHotDogPrice.Size = New System.Drawing.Size(75, 29)
+        Me.lblHotDogPrice.TabIndex = 21
+        Me.lblHotDogPrice.Text = "$5.29"
         '
         'frmHotDogs
         '
@@ -147,6 +159,7 @@ Partial Class frmHotDogs
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(201, Byte), Integer), CType(CType(32, Byte), Integer), CType(CType(39, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.lblHotDogPrice)
         Me.Controls.Add(Me.btnHotDogs)
         Me.Controls.Add(Me.picHotDog2)
         Me.Controls.Add(Me.picHotDog)
@@ -175,4 +188,5 @@ Partial Class frmHotDogs
     Friend WithEvents picHotDog As PictureBox
     Friend WithEvents picHotDog2 As PictureBox
     Friend WithEvents btnHotDogs As Button
+    Friend WithEvents lblHotDogPrice As Label
 End Class

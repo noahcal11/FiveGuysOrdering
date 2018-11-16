@@ -1,8 +1,6 @@
 ﻿Public Class AddToOrder
     ' Add purchased item to receipt, add cost to total cost
 
-
-
     ' Public subroutine to add item to order
     Public Shared Sub AddItem(ByVal ItemCost As Decimal, ByVal ItemName As String)
         frmMainMenu.decAddedPrice = ItemCost
@@ -18,10 +16,5 @@
 
         ' Displays messagebox as confirmation
         MsgBox("Successfully added " & ItemName & " to order.", MsgBoxStyle.OkOnly, "Item added")
-    End Sub
-
-    ' Gets checkboxes from toppings form
-    Public Shared Sub getcheckme(ByVal element As Control)
-
     End Sub
 End Class
