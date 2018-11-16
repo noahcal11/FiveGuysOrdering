@@ -69,10 +69,10 @@ Partial Class frmFries
         'lblStyle
         '
         Me.lblStyle.AutoSize = True
-        Me.lblStyle.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Bold)
-        Me.lblStyle.Location = New System.Drawing.Point(108, 128)
+        Me.lblStyle.Font = New System.Drawing.Font("Perpetua Titling MT", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblStyle.Location = New System.Drawing.Point(104, 128)
         Me.lblStyle.Name = "lblStyle"
-        Me.lblStyle.Size = New System.Drawing.Size(80, 31)
+        Me.lblStyle.Size = New System.Drawing.Size(102, 32)
         Me.lblStyle.TabIndex = 9
         Me.lblStyle.Text = "Style"
         '
@@ -112,10 +112,10 @@ Partial Class frmFries
         'lblSize
         '
         Me.lblSize.AutoSize = True
-        Me.lblSize.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Bold)
+        Me.lblSize.Font = New System.Drawing.Font("Perpetua Titling MT", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSize.Location = New System.Drawing.Point(327, 128)
         Me.lblSize.Name = "lblSize"
-        Me.lblSize.Size = New System.Drawing.Size(71, 31)
+        Me.lblSize.Size = New System.Drawing.Size(75, 32)
         Me.lblSize.TabIndex = 11
         Me.lblSize.Text = "Size"
         '
